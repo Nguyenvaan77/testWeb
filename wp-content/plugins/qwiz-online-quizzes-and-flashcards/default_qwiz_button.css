@@ -1,0 +1,59 @@
+.qwiz_button {
+    cursor: pointer;
+    width: auto;
+    margin: 0 0 2px 0 !important;
+    border: none;
+    background: #0073aa;
+    padding: 6px 9px !important;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px !important;
+    font-weight: bold;
+    font-family: arial, verdana, sans-serif;
+    text-decoration: none;
+    text-transform: none !important;
+    vertical-align: middle;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+}
+
+.qwiz_button_small {
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 0 0 2px 0 !important;
+    border: none;
+    background: #0073aa;
+    padding: 3px 5px !important;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px !important;
+    font-weight: bold;
+    font-family: arial, verdana, sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+}
+
+.qwiz_button_disabled,
+.qwiz_button_disabled:hover {
+    border-top: 1px solid #cccccc;
+    background: #cccccc !important;
+    color: #e6e6e6 !important;
+}
+
+.qwiz_button:hover,
+.qwiz_button_small:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+
+.qwiz_button:active {
+    background: #1b435e;
+}
+
+.qwiz_button p {
+    margin: 0 !important;
+    line-height: normal !important;
+}
